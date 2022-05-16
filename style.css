@@ -1,0 +1,13 @@
+body {
+    display: flex;
+    justify-content: stretch;
+}
+
+.leftpanel {
+    flex: 1;
+    background-color: green;
+}
+.contentpanel {
+    flex: 1;
+    background-color: beige;
+}
