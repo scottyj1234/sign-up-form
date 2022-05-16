@@ -3,11 +3,11 @@ body {
     justify-content: stretch;
 }
 
-.leftpanel {
+.imagePanel {
     flex: 1;
     background-color: green;
 }
-.contentpanel {
-    flex: 1;
+.contentPanel {
+    flex: 2;
     background-color: beige;
 }
