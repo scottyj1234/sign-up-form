@@ -53,12 +53,18 @@ label {
     font-size: 0.8rem;
 }
 
+
 input {
     font-size: 1.1rem;
     border: 2px;
     border-color: #E5E7EB;
     border-radius: 4px;
     border-style: solid;
+}
+
+input:focus {
+    border-color: blue;
+    outline-style: none;
 }
 
 .footerContent p {
