@@ -10,12 +10,22 @@ body {
 .contentPanel {
     flex: 2;
     background-color: #ededed;
-    padding-left: 100px;
-    padding-right: 50px;
     
     font-family: 'LucymarSansRegular', Arial, Helvetica, sans-serif;
 }
 
+.headerContent {
+    margin-bottom: 50px;
+}
+
+.textInputsContent {
+    padding-top: 10px;
+    background-color: #fff;
+    box-shadow: 2px;
+}
+
 p {
-    font-size: 2rem;
+    font-size: 1.8rem;
+    max-width: 40vw;
+    margin: 25px;
 }
