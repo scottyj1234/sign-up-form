@@ -71,6 +71,11 @@ input:invalid {
     border-color: red;
 }
 
+/* To be used with script when passwords don't match */
+input.error {
+    border-color: red;
+}
+
 .footerContent p {
     margin: 0px 25px;
     font-size: 1em;
