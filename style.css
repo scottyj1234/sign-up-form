@@ -1,15 +1,16 @@
 body {
     display: flex;
     justify-content: stretch;
+    background-color: #ededed;
 }
 
 .imagePanel {
     flex: 1.2;
     background-color: green;
+    height: 100vh;
 }
 .contentPanel {
     flex: 2;
-    background-color: #ededed;
     
     font-family: 'LucymarSansRegular', Arial, Helvetica, sans-serif;
 }
@@ -21,11 +22,72 @@ body {
 .textInputsContent {
     padding-top: 10px;
     background-color: #fff;
-    box-shadow: 2px;
 }
 
 p {
     font-size: 1.8rem;
     max-width: 40vw;
     margin: 25px;
+}
+
+.textInputRow {
+    display: flex;
+    margin: 10px 0px;
+}
+
+.textInputRow:last-child {
+    display: flex;
+    padding-bottom: 25px;
+}
+
+.labelInput {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0px 25px;
+}
+
+label {
+    text-transform: uppercase;
+    font-style: inherit;
+    font-size: 0.8rem;
+}
+
+input {
+    font-size: 1.1rem;
+    border: 2px;
+    border-color: #E5E7EB;
+    border-radius: 4px;
+    border-style: solid;
+}
+
+.footerContent p {
+    margin: 0px 25px;
+    font-size: 1em;
+}
+
+button {
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    border-style: none;
+    box-shadow: 2px 4px 2px lightgray;
+    margin: 25px;
+    display: block;
+    width: 200px;
+    height: 50px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:link {
+    color: green;
+}
+
+a:visited {
+    color: darkgreen;
 }

@@ -22,28 +22,41 @@
         <form action="#" method="post">
             <div class="textInputsContent">
                 <p>Let's do this!</p>
-                <div>
-                    <label for="first_name">First Name</label>
-                    <input type="text" name="first_name" id="first_name">
-                    <label for="last_name">Last Name</label>
-                    <input type="text" name="last_name" id="last_name">
+                <div class="textInputRow">
+                    <div class="labelInput">
+                        <label for="first_name">First Name</label>
+                        <input type="text" name="first_name" id="first_name">
+                    </div>
+                    <div class="labelInput">
+                        <label for="last_name">Last Name</label>
+                        <input type="text" name="last_name" id="last_name">
+                    </div>
                 </div>
-                <div>
-                    <label for="email">Email</label>
-                    <input type="text" name="email" id="email">
-                    <label for="phone_number">Phone Number</label>
-                    <input type="tel" name="phone_number" id="phone_number">
+                <div class="textInputRow">
+                    <div class="labelInput">
+                        <label for="email">Email</label>
+                        <input type="text" name="email" id="email">
+                    </div>
+                    <div class="labelInput">
+                        <label for="phone_number">Phone Number</label>
+                        <input type="tel" name="phone_number" id="phone_number">
+                    </div>
                 </div>
-                <div>
-                    <label for="password">Password</label>
-                    <input type="password" name="password" id="password">
-                    <label for="confirm_password">Confirm Password</label>
-                    <input type="password" name="confirm_password" id="confirm_password">
+                <div class="textInputRow">
+                    <div class="labelInput">    
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password">
+                    </div>
+                    <div class="labelInput">
+                        <label for="confirm_password">Confirm Password</label>
+                        <input type="password" name="confirm_password" id="confirm_password">
+                    </div>
                 </div>
             </div>
             <div class="footerContent">
                 <button type="submit">Create Account</button>
-                Already have an account? <a href="#">Log in</a>
+                
+                <p>Already have an account? <a href="#">Log in</a></p>
             </div>
         </form>
     </div>
