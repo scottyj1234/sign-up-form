@@ -2,16 +2,73 @@ body {
     display: flex;
     justify-content: stretch;
     background-color: #ededed;
+    height: 99vh;
+    margin: 0;
+
+    --image-panel-width: calc(99vh / 1.91);
 }
 
 .imagePanel {
-    background-image: url("images/denaliCropped.jpg");
-    background-color: skyblue;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 100vh;
-    width: calc(100vh / 1.91);
+    height: inherit;
+    position: relative;
+    width: var(--image-panel-width);
 }
+
+.imagePanel > img {
+    height: inherit;
+    width: inherit;
+    position: absolute;
+    z-index: -1;
+}
+
+.imageSpan {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 30vh;
+    width: inherit;
+    height: 10vh;
+    position: absolute;
+    background:#FFFFFFA0;
+    text-align: center;
+    gap: 10px;
+    --span-text-height: 2rem;
+}
+
+.imageSpan > img {
+    height: calc(var(--span-text-height) * 0.85);
+}
+
+.imageSpan > span {
+    font-size: var(--span-text-height);
+    font-family: 'GFSJacksonRegular', Arial, Helvetica, sans-serif;
+}
+
+.imageFooter {
+    display: flex;
+    position: absolute;
+    bottom: 10px;
+    width: inherit;
+    justify-content: center;
+    font-size: 0.7rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: #FFFFFF;
+}
+
+.imageFooter > span > a {
+    font-weight: lighter;
+    text-decoration: underline;
+}
+
+.imageFooter > span > a:link {
+    color: white;
+}
+
+.imageFooter > span > a:visited {
+    color: lightgrey;
+}
+
 .contentPanel {
     flex: 1;
     font-family: 'LucymarSansRegular', Arial, Helvetica, sans-serif;
