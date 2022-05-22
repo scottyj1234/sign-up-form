@@ -5,13 +5,15 @@ body {
 }
 
 .imagePanel {
-    flex: 1.2;
-    background-color: green;
+    background-image: url("images/denaliCropped.jpg");
+    background-color: skyblue;
+    background-repeat: no-repeat;
+    background-size: contain;
     height: 100vh;
+    width: calc(100vh / 1.91);
 }
 .contentPanel {
-    flex: 2;
-    
+    flex: 1;
     font-family: 'LucymarSansRegular', Arial, Helvetica, sans-serif;
 }
 
@@ -82,7 +84,7 @@ span.error {
 }
 
 button {
-    background-color: green;
+    background-color: skyblue;
     color: white;
     font-weight: bold;
     border-radius: 10px;
@@ -100,9 +102,9 @@ a {
 }
 
 a:link {
-    color: green;
+    color: blue;
 }
 
 a:visited {
-    color: darkgreen;
+    color: blue;
 }
