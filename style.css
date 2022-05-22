@@ -76,6 +76,10 @@ input.error {
     border-color: red;
 }
 
+span.error {
+    color: red;
+}
+
 .footerContent p {
     margin: 0px 25px;
     font-size: 1em;
