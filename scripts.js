@@ -18,10 +18,10 @@ function removePasswordMismatchError() {
     document.querySelector('span.error').textContent = '';
 }
 
-primaryPasswordInput.addEventListener("keydown", (e) => {
+primaryPasswordInput.addEventListener("input", (e) => {
     passwordsMatch() ? removePasswordMismatchError() : setPasswordMismatchError()
 });
 
-secondaryPasswordInput.addEventListener("keydown", (e) => {
+secondaryPasswordInput.addEventListener("input", (e) => {
     passwordsMatch() ? removePasswordMismatchError() : setPasswordMismatchError()
 });
