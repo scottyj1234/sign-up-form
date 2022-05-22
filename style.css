@@ -74,6 +74,10 @@ body {
     font-family: 'LucymarSansRegular', Arial, Helvetica, sans-serif;
 }
 
+span.italics {
+    font-style: italic;
+}
+
 .headerContent {
     margin-bottom: 50px;
 }
