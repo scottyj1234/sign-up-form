@@ -67,11 +67,7 @@ input:focus {
     outline-style: none;
 }
 
-input:invalid {
-    border-color: red;
-}
-
-/* To be used with script when passwords don't match */
+input:invalid,
 input.error {
     border-color: red;
 }
