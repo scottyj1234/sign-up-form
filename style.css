@@ -16,11 +16,14 @@ div.image-pane {
 }
 
 div.image-pane img {
+  display: block;
+  height: 100vh;
   width: auto;
-  height: inherit;
 }
 
 div.content-pane {
   width: 70vw;
   background-color: blue;
+  margin: 0;
+  padding: 0;
 }
