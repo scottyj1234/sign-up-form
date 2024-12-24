@@ -88,6 +88,7 @@ div.content-pane button {
 div.form-inputs {
   background-color: #ffffff;
   padding: 10px 10px 30px;
+  box-shadow: 0px 5px 5px #00000033;
 }
 
 div.form-inputs p {
@@ -123,7 +124,7 @@ div.form-input input {
   border-style: solid;
 }
 
-div.form-input input:invalid {
+div.form-input input:user-invalid {
   border-color: #ff5555;
 }
 

@@ -30,17 +30,17 @@
         <div class="form-row">
           <div class="form-input">
             <label for="first-name">First Name</label>
-            <input type="text" name="first-name" id="first-name">
+            <input type="text" name="first-name" id="first-name" required>
           </div>
           <div class="form-input">
             <label for="last-name">Last Name</label>
-            <input type="text" name="last-name" id="last-name">
+            <input type="text" name="last-name" id="last-name" required>
           </div>
         </div>
         <div class="form-row">
           <div class="form-input">
             <label for="email">Email</label>
-            <input type="email" name="email" id="email">
+            <input type="email" name="email" id="email" required>
           </div>
           <div class="form-input">
             <label for="phone-number">Phone Number</label>
@@ -50,11 +50,11 @@
         <div class="form-row">
           <div class="form-input">
             <label for="password">Password</label>
-            <input type="password" name="password" id="password">
+            <input type="password" name="password" id="password" minlength="1" maxlength="20" required>
           </div>
           <div class="form-input">
             <label for="password-confirm">Confirm Password</label>
-            <input type="password" name="password-confirm" id="password-confirm">
+            <input type="password" name="password-confirm" id="password-confirm" minlength="1" maxlength="20" required>
           </div>
         </div>
       </div>
