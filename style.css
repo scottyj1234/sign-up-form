@@ -62,3 +62,40 @@ div.content-pane {
   margin: 0;
   padding: 0;
 }
+
+
+div.content-pane p {
+  width: 35em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+div.content-pane p,
+div.content-pane button {
+  margin: 20px 50px;
+}
+
+div.form-inputs {
+  background-color: #ffffff;
+  padding: 10px 10px 30px;
+}
+
+div.form-inputs p {
+  margin: 10px 50px;
+}
+
+div.form-row {
+  display: flex;
+  flex-direction: row;
+}
+
+div.form-input {
+  display: flex;
+  flex-direction: column;
+  margin: 5px 50px
+}
+
+div.form-input label {
+  font-family: Hack, Arial, Helvetica, sans-serif
+}
