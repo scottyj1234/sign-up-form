@@ -123,6 +123,10 @@ div.form-input input {
   border-style: solid;
 }
 
+div.form-input input:invalid {
+  border-color: #ff5555;
+}
+
 div.form-input input:focus {
   border-color: #9999FF;
   outline: none;
