@@ -1,3 +1,12 @@
+@font-face {
+  font-family: 'robotoregular';
+  src: url('./font/roboto-regular-webfont.woff2') format('woff2'),
+       url('./font/roboto-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
 :root {
   margin: 0;
   padding: 0;
@@ -97,5 +106,6 @@ div.form-input {
 }
 
 div.form-input label {
-  font-family: Hack, Arial, Helvetica, sans-serif
+  font-family: robotoregular, Arial, Helvetica, sans-serif;
+  font-size: 14px;
 }
