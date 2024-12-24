@@ -21,6 +21,41 @@ div.image-pane img {
   width: auto;
 }
 
+div.image-pane .image-overlay-background {
+  position: absolute;
+  top: 40vh;
+  left: 0px;
+  background-color: black;
+  width: inherit;
+  height: 50px;
+  opacity: 0.5;
+}
+
+div.image-pane .image-overlay-text {
+  display: flex;
+  position: absolute;
+  top: 40vh;
+  left: 0px;
+  color: white;
+  width: inherit;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-overlay-text p {
+  margin: 0;
+  padding: 0;
+  font-size: 40px;
+}
+
+.image-overlay-text img.logo-image {
+  display: block;
+  color: white;
+  width: 40px;
+  height: 40px;
+}
+
 div.content-pane {
   width: 70vw;
   background-color: blue;
